@@ -1,0 +1,7 @@
+type= raw events
+count= 10
+speed= 1.0
+start data >>
+DispatchPress(KEYCODE_HOME)
+DispatchPress(KEYCODE_HOME)
+RunCmd(uiautomator runtest xxxx.jar --nohup  -c 包名.类名)

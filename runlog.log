@@ -1,0 +1,5003 @@
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 31 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: D:\workspace\workspace_work\UiautomatorRunProject\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+1020 KB/s (32619 bytes in 0.031s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.uitest.contact.testcase.OpenMail" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/OpenMail.jar"],nativeLibraryDirectories=[/vendor/lib64, /system/lib64]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1919 KB/s (32622 bytes in 0.016s)
+run PId: 4790
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+startTest: testEmail(com.uitest.testdemo.OpenMail)
+
+java.io.FileNotFoundException: /mnt/sdcard/AppTestReportAppRunLog/PerformanceLog.txt: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:127)
+
+	at java.io.FileWriter.<init>(FileWriter.java:96)
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:54)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:19)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.uitest.uiautomatorUtil.TestListenerManager.run(TestListenerManager.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testEmail:
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'void java.io.FileWriter.close()' on a null object reference
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:80)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:19)
+
+	at com.uitest.uiautomatorUtil.TestListenerManager.run(TestListenerManager.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void java.io.FileWriter.close()' on a null object reference
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:80)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:19)
+
+	at com.uitest.uiautomatorUtil.TestListenerManager.run(TestListenerManager.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 2.261
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2042 KB/s (32625 bytes in 0.015s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Test class must be derived from UiAutomatorTestCase
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2042 KB/s (32626 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+java.io.FileNotFoundException: /mnt/sdcard/AppTestReportAppRunLog/PerformanceLog.txt: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:127)
+
+	at java.io.FileWriter.<init>(FileWriter.java:96)
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:54)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:20)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 19 more
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testEmail:
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'void java.io.FileWriter.close()' on a null object reference
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:80)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:20)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void java.io.FileWriter.close()' on a null object reference
+
+	at com.uitest.log.UiautomatorAssistant.UiAutomationLog(UiautomatorAssistant.java:80)
+
+	at com.uitest.uiautomatorUtil.DriverManager.pressHome(DriverManager.java:185)
+
+	at com.uitest.testdemo.OpenMail.testEmail(OpenMail.java:20)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.027
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2040 KB/s (32588 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.582
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2044 KB/s (32667 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+waitForExistst: 139邮箱
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 117.163
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2050 KB/s (32748 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4805
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4526
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4443
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4600
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4593
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4549
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4675
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4642
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4532
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4629
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 137.279
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2050 KB/s (32755 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 28.401
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2051 KB/s (32775 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.0
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 27.805
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2051 KB/s (32764 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.579
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.07
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 28.485
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2053 KB/s (32797 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.121
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.727
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 27.808
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2053 KB/s (32801 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.062
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.865
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 28.791
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2053 KB/s (32811 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.834
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.851
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 28.537
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1029 KB/s (32890 bytes in 0.031s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.867
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.807
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 28.473
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 6 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+2166 KB/s (34615 bytes in 0.015s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.IllegalStateException
+
+INSTRUMENTATION_RESULT: longMsg=UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@cdd695falready registered!
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2166 KB/s (34615 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 1.512
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.639
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 23.98
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for OpenMail...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\OpenMail.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2165 KB/s (34591 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.OpenMail:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.344
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.89
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 4.745
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 6.788
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 6.536
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.191
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.083
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.684
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.089
+
+waitForExistst: 139邮箱
+
+杀进程启动时间: 5.414
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testEmail
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.OpenMail
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 145.747
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 31 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: D:\workspace\workspace_work\UiautomatorRunProject\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+27 KB/s (27856 bytes in 1.000s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Test class must be derived from UiAutomatorTestCase
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1744 KB/s (27868 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+等待分钟: 2
+
+等待分钟: 3
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test:
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+
+	at com.uitest.uiautomatorUtil.ImageManager.drawTextBitmap(ImageManager.java:313)
+
+	at com.uitest.uiautomatorUtil.ImageManager.screenshotAndDrawText(ImageManager.java:173)
+
+	at com.uitest.uiautomatorUtil.ImageManager.snapshot(ImageManager.java:121)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:71)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:45)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+
+	at com.uitest.uiautomatorUtil.ImageManager.drawTextBitmap(ImageManager.java:313)
+
+	at com.uitest.uiautomatorUtil.ImageManager.screenshotAndDrawText(ImageManager.java:173)
+
+	at com.uitest.uiautomatorUtil.ImageManager.snapshot(ImageManager.java:121)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:71)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:45)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 223.202
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1550 KB/s (27947 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.479
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1749 KB/s (27950 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.517
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1749 KB/s (27950 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+等待分钟: 2
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+can not find edu.umich.PowerTutor:id/appviewerbutton !
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test:
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.uiautomator.core.UiObject.click()' on a null object reference
+
+	at com.mail.pageobject.power.PowerPageObject.clickViewer(PowerPageObject.java:36)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:65)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:45)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.uiautomator.core.UiObject.click()' on a null object reference
+
+	at com.mail.pageobject.power.PowerPageObject.clickViewer(PowerPageObject.java:36)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:65)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:45)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 168.311
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1751 KB/s (27972 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+等待分钟: 2
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+kill 电量监测工具
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 179.14
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1607 KB/s (27986 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+can not find Ok !
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test:
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.uiautomator.core.UiObject.click()' on a null object reference
+
+	at com.mail.pageobject.power.PowerPageObject.into(PowerPageObject.java:16)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:21)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:35)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.uiautomator.core.UiObject.click()' on a null object reference
+
+	at com.mail.pageobject.power.PowerPageObject.into(PowerPageObject.java:16)
+
+	at com.mail.mode.power.PowerAction.execute(PowerAction.java:21)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:35)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 21.419
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2278 KB/s (28005 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+kill 电量监测工具
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 141.135
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2278 KB/s (28001 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+kill 电量监测工具
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 125.081
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2277 KB/s (27988 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+kill 电量监测工具
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+kill 电量监测工具
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 227.925
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 8 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+1651 KB/s (32133 bytes in 0.019s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_16-54-15 GT开始记录.....
+
+fileName:2017-06-02_16-54-26
+
+adb pull/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_16-54-26//mnt/sdcard/logs/2017-06-02_16-54-26/
+
+第一次运行出错，或者没有启动测试APP，请关闭该重新，重新打开！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.4
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1493 KB/s (32112 bytes in 0.021s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-01-18 GT开始记录.....
+
+fileName:2017-06-02_17-01-29
+
+cp/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-01-29/  /mnt/sdcard/logs/
+
+第一次运行出错，或者没有启动测试APP，请关闭该重新，重新打开！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.434
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1844 KB/s (32113 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-02-21 GT开始记录.....
+
+fileName:2017-06-02_17-02-32
+
+cp/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-02-32/  /mnt/sdcard/logs/
+
+java.lang.NullPointerException: Attempt to get length of null array
+
+	at com.gt.util.GetCSVData.getFileName(GetCSVData.java:68)
+
+	at com.gt.util.GetCSVData.getCPUValue(GetCSVData.java:143)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:78)
+
+	at com.uitest.testdemo.Pic.test(Pic.java:27)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+第一次运行出错，或者没有启动测试APP，请关闭该重新，重新打开！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.492
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2244 KB/s (32178 bytes in 0.014s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-07-44 GT开始记录.....
+
+fileName:2017-06-02_17-07-55
+
+cp/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-07-55/  /mnt/sdcard/logs/
+
+path:/mnt/sdcard/logs/2017-06-02_17-07-55/
+
+java.lang.NullPointerException: Attempt to get length of null array
+
+	at com.gt.util.GetCSVData.getFileName(GetCSVData.java:63)
+
+	at com.gt.util.GetCSVData.getCPUValue(GetCSVData.java:145)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:78)
+
+	at com.uitest.testdemo.Pic.test(Pic.java:27)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+第一次运行出错，或者没有启动测试APP，请关闭该重新，重新打开！
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.426
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1742 KB/s (32119 bytes in 0.018s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-10-30 GT开始记录.....
+
+fileName:2017-06-02_17-10-41
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-10-41/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602171039.csv
+
+min,0.0%
+
+max,0.17%
+
+avg,0.02%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-10-41/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602171040.csv
+
+min,93868.0,42064.0,35852.0
+
+avg,93868.0,42064.0,35852.0
+
+avg,93868.0,42064.0,35852.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.441
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2413 KB/s (32132 bytes in 0.013s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-11-55 GT开始记录.....
+
+fileName:2017-06-02_17-12-06
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-12-06/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602171204.csv
+
+min,0.0%
+
+max,24.06%
+
+avg,4.42%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-12-06/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602171206.csv
+
+min,101276.0,47552.0,38400.0
+
+avg,104331.0,50425.0,38400.0
+
+avg,104331.0,50425.0,38400.0
+
+min,0.0%#max,24.06%#avg,4.42%;min,101276.0#max,106104.0#avg,104331.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.479
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2095 KB/s (32191 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-16-00 GT开始记录.....
+
+fileName:2017-06-02_17-16-12
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-16-12/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602171611.csv
+
+min,0.0%
+
+max,1.82%
+
+avg,0.48%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-16-12/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602171611.csv
+
+min,91732.0,38680.0,38364.0
+
+avg,91996.0,38915.0,38364.0
+
+avg,91996.0,38915.0,38364.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.368
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1309 KB/s (32191 bytes in 0.024s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-18-17 GT开始记录.....
+
+fileName:2017-06-02_17-18-28
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-18-28/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602171827.csv
+
+min,0.0%
+
+max,0.17%
+
+avg,0.03%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-18-28/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602171827.csv
+
+min,55984.0,9880.0,33956.0
+
+avg,56018.0,9910.0,33956.0
+
+avg,56018.0,9910.0,33956.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.537
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1849 KB/s (32191 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-20-07 GT开始记录.....
+
+fileName:2017-06-02_17-20-18
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-20-18/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602172017.csv
+
+min,0.0%
+
+max,2.34%
+
+avg,0.3%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-20-18/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602172017.csv
+
+min,71992.0,25008.0,33964.0
+
+avg,72682.0,25658.0,33964.0
+
+avg,72682.0,25658.0,33964.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.43
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for test...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\test.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1746 KB/s (32196 bytes in 0.018s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.Pic:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-06-02_17-20-59 GT开始记录.....
+
+fileName:2017-06-02_17-21-10
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-21-10/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602172109.csv
+
+min,0.0%
+
+max,0.17%
+
+avg,0.03%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-21-10/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602172109.csv
+
+min,72992.0,26116.0,33964.0
+
+max,72992.0,26116.0,33964.0
+
+avg,72992.0,26116.0,33964.0
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.Pic
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.438
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+1572 KB/s (32207 bytes in 0.020s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+fileName:2017-06-02_17-26-43
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/
+
+fileList: 0
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getCPUValue(GetCSVData.java:147)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:78)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getCPUValue(GetCSVData.java:148)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:78)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getCPUValue(GetCSVData.java:149)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:78)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+null
+
+null
+
+null
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/
+
+fileList: 0
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getMEMValue(GetCSVData.java:122)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:79)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getMEMValue(GetCSVData.java:123)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:79)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+java.io.FileNotFoundException: /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-26-43/null: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.IoBridge.open(IoBridge.java:452)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+
+	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+
+	at java.io.FileReader.<init>(FileReader.java:66)
+
+	at com.gt.util.GetCSVData.getData(GetCSVData.java:87)
+
+	at com.gt.util.GetCSVData.getMEMValue(GetCSVData.java:124)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:79)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+
+	at libcore.io.Posix.open(Native Method)
+
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+
+	at libcore.io.IoBridge.open(IoBridge.java:438)
+
+	... 20 more
+
+null
+
+null
+
+null
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.indexOf(java.lang.String, int)' on a null object reference
+
+	at com.gt.util.GetCSVData.getMEMValue(GetCSVData.java:132)
+
+	at com.gt.util.GTTest.endGT(GTTest.java:79)
+
+	at com.uitest.testdemo.PowerFlowCpuMen.test(PowerFlowCpuMen.java:47)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+
+第一次运行出错，或者没有启动测试APP，请关闭该重新，重新打开！
+
+kill 电量监测工具
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1258 KB/s (32212 bytes in 0.025s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+2017-06-02_17-29-37 GT开始记录.....
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+fileName:2017-06-02_17-30-57
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-30-57/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602173055.csv
+
+min,0.0%
+
+max,0.2%
+
+avg,0.02%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-30-57/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602173056.csv
+
+min,73752.0,26864.0,33964.0
+
+max,73764.0,26864.0,33964.0
+
+avg,73760.0,26864.0,33964.0
+
+kill 电量监测工具
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 127.594
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+Buildfile: D:\workspace\workspace_work\UiautomatorRunProject\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.0.0
+     [echo] Resolving Build Target for PowerFlowCpuMen...
+[getuitarget] Project Target:   Android 5.0
+[getuitarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\workspace_work\UiautomatorRunProject\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\workspace_work\UiautomatorRunProject\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\workspace_work\UiautomatorRunProject\bin\PowerFlowCpuMen.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2621 KB/s (32211 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.uitest.testdemo.PowerFlowCpuMen:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test
+
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.PowerFlowCpuMen
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+waitForExistst: Ok
+
+waitForExistst: Agree
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+waitForExistst: LCD
+
+waitForExistst: Wifi
+
+waitForExistst: 3G
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+2017-06-02_17-32-10 GT开始记录.....
+
+等待30分钟.....
+
+等待分钟: 1
+
+开始记录.....
+
+waitForExistst: edu.umich.PowerTutor:id/appviewerbutton
+
+snapshot
+
+referenceTable GDEF length=814 1
+
+referenceTable GSUB length=11364 1
+
+referenceTable GPOS length=47302 1
+
+referenceTable head length=54 1
+
+waitForExistst: edu.umich.PowerTutor:id/servicestartbutton
+
+流量值：
+
+fileName:2017-06-02_17-33-29
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-33-29/
+
+fileList: 7
+
+find:Pcp0_cn.cj.pe_20170602173327.csv
+
+min,0.0%
+
+max,0.37%
+
+avg,0.03%
+
+path:/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-06-02_17-33-29/
+
+fileList: 7
+
+find:Pr0_cn.cj.pe_20170602173329.csv
+
+min,73752.0,26864.0,33964.0
+
+max,73880.0,26988.0,33964.0
+
+avg,73861.0,26970.0,33964.0
+
+kill 电量监测工具
+
